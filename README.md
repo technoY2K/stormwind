@@ -1,2 +1,2 @@
-# stormwind
+# Stormwind
 Notes and links
