@@ -1,5 +1,7 @@
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
+// link to MDN for loop: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
+
 for (let i = 0; i < numbers.length; i++) {
   console.log(numbers[i])
 }
