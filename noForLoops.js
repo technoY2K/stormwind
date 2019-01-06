@@ -1,25 +1,30 @@
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-// link to MDN for loop: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
+// for (let i = 0; i < numbers.length; i += 1) {
+//   console.log(numbers[i])
+// }
 
-for (let i = 0; i < numbers.length; i++) {
-  console.log(numbers[i])
+function loop(index, arr) {
+  if (index >= arr.length) return
+
+  console.log(arr[index])
+  loop(index + 1, arr)
 }
 
-function loop(begin, end) {
-  if (begin > end) return
-  console.log(begin)
-  loop(begin + 1, end)
-}
+loop(0, numbers)
 
-loop(1, 10)
-
-function printToConsole(number, index) {
+function printToConsole(number, index, arr) {
   console.log(number)
 }
 
-function printToConsoleWithIndex(number, index) {
+function printToConsoleWithIndex(number, index, arr) {
   console.log(number, `Index is ${index}`)
 }
 
-numbers.forEach(printToConsoleWithIndex)
+function double(number, index, arr) {
+  arr[index] = number * 2
+}
+
+numbers.forEach(double)
+
+console.log(numbers)
