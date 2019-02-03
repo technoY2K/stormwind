@@ -1,0 +1,2 @@
+exhaustive list of es2015 features
+http://es6-features.org/#Constants
