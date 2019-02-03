@@ -82,7 +82,7 @@ function animalCreator(proto, attributes) {
   return Object.assign(Object.create(proto), attributes)
 }
 
-// function constructor solution
+// constructor function solution
 function Animal(name) {
   this.name  = name
 }
@@ -102,8 +102,8 @@ function Dog(name, breed) {
 
 Dog.prototype = Object.create(Animal.prototype)
 
+Dog.prototype.constructor = Dog
+
 Dog.prototype.bark = function() {
   console.log('woof woof')
 }
-
-Dog.prototype.constructor = Dog
