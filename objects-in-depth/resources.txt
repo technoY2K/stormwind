@@ -1,3 +1,8 @@
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
 
 https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+
+advanced reading
+https://medium.com/javascript-scene/why-composition-is-harder-with-classes-c3e627dcd0aa
