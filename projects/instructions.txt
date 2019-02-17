@@ -1,1 +1,18 @@
-Run your own environment
+check if node is installed
+  node --version
+  brew --version
+
+if brew is not installed follow these steps
+  install homebrew https://brew.sh/
+
+check if homebrew is installed by running
+  brew --version
+
+now with brew installed run the following command
+  brew install node
+
+check if node is installed by running
+  node --version
+
+now you are all set to run JavaScript programs
+  node example.js (the command is node; example.js is the name of file. You can name the file anything you like)
