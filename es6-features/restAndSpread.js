@@ -1,19 +1,19 @@
 // Arrays
-const companies = ['Apple', 'Tesla', 'IBM', 'Google', 'Burger King', 'Samsung']
 const firstCompany  = companies[0]
 const secondCompany = companies[1]
+const companies = ['Apple', 'Tesla', 'IBM', 'Google', 'Burger King', 'Samsung']
 
 // rest example
-const [firstCompany, secondCompany, ...rest] = companies
+const [ firstCompany, secondCompany, ...rest ] = companies
 
 // better default example
 const domain = 'example.org'
 
-const [host, tld = 'net'] = domain.split('.')
+const [ host, tld = 'net' ] = domain.split('.')
 
 // spread
-const oddNumbers  = [1, 3, 5]
-const evenNumbers = [2, 4, 6]
+const oddNumbers  = [ 1, 3, 5 ]
+const evenNumbers = [ 2, 4, 6 ]
 
 const combined = [ ...evenNumbers, ...oddNumbers, 6, 7, ]
 
@@ -39,11 +39,10 @@ const profile = {
   address: 'Its a secret'
 }
 
-const { first, last, ...restArgs } = profile
 const first   = profile.first
 const last    = profile.last
 const hobbies = profile.hobbies
-
+const { first, last, ...restArgs } = profile
 
 // Object spread example
 const moreInfo = {
@@ -70,7 +69,6 @@ const person = {
   last: 'Green',
   occupation: 'engineer'
 }
-
 
 function example({ first, last, occupation }) {
   console.log(first)
