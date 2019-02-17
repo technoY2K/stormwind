@@ -1,8 +1,10 @@
 // Arrays
-const numbers = [1, 2, 3, 4, 5, 6, 7]
+const companies = ['Apple', 'Tesla', 'IBM', 'Google', 'Burger King', 'Samsung']
+const firstCompany  = companies[0]
+const secondCompany = companies[1]
 
 // rest example
-const [one, two, ...rest] = numbers
+const [firstCompany, secondCompany, ...rest] = companies
 
 // better default example
 const domain = 'example.org'
@@ -38,6 +40,9 @@ const profile = {
 }
 
 const { first, last, ...restArgs } = profile
+const first   = profile.first
+const last    = profile.last
+const hobbies = profile.hobbies
 
 
 // Object spread example
