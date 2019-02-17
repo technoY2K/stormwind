@@ -58,3 +58,17 @@ const updatedProfile = {
   first: 'Sam',
   last: 'Jones'
 }
+
+// Functions
+const person = {
+  first: 'Kelly',
+  last: 'Green',
+  occupation: 'engineer'
+}
+
+
+function example({ first, last, occupation }) {
+  console.log(first)
+  console.log(last)
+  console.log(occupation)
+}
