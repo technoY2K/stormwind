@@ -37,7 +37,7 @@ const profile = {
   address: 'Its a secret'
 }
 
-const { first, last } = profile
+const { first, last, ...restArgs } = profile
 
 
 // Object spread example
@@ -50,4 +50,11 @@ const moreInfo = {
 const updatedProfile = {
   ...moreInfo,
   favoriteMovie: 'iSpy'
+}
+
+// lastest keys overwrites previous
+const updatedProfile = {
+  ...profile,
+  first: 'Sam',
+  last: 'Jones'
 }
