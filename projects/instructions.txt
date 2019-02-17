@@ -1,4 +1,4 @@
-check if node is installed
+check if brew or node is installed
   node --version
   brew --version
 
