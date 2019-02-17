@@ -72,3 +72,19 @@ function example({ first, last, occupation }) {
   console.log(last)
   console.log(occupation)
 }
+
+// supply defaults
+function example({ first = 'Jane', last = 'Doe', occupation = 'politician' } = {}) {
+  console.log(first)
+  console.log(last)
+  console.log(occupation)
+}
+
+// rest and spread arguments
+const numbers = [1, 2, 3, 4, 5, 6]
+
+function example(...nums) {
+  nums.forEach(number => console.log(number))
+}
+
+example(...numbers)
