@@ -38,3 +38,16 @@ const profile = {
 }
 
 const { first, last } = profile
+
+
+// Object spread example
+const moreInfo = {
+  friendsList: ['Fred', 'Lacey'],
+  favoriteBook: 'Red Dwarf 2',
+  favoriteNumber: 43
+}
+
+const updatedProfile = {
+  ...moreInfo,
+  favoriteMovie: 'iSpy'
+}
