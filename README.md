@@ -6,6 +6,6 @@
   <p align="center">Scottsdale, AZ 😎</p>
   <hr></hr>
   <p align="center">
-    <img height="300" width="400" src="flicks/now_what.jpg" />
+    <img height="300" width="250" src="flicks/now_what.jpg" />
   </p>
 </div>
