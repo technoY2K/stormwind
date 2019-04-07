@@ -1,0 +1,15 @@
+1. open terminal. You can open the search tool by pressing command and spacebar. Once the search tool is open type in terminal and hit enter
+
+2. install homebrew the macOS third party package manager
+https://brew.sh/
+follow the install instructions at the brew main site
+
+3. install node
+In the terminal type the following command
+brew install node
+This will provide the npm third party package manager and an environment we will need for future projects
+https://nodejs.org/en/
+
+4. install parcel
+With npm install we can now download Parcel, the bundler and local server.
+npm install -g parcel-bundler
