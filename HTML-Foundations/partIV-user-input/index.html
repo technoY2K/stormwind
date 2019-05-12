@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>User Input</title>
+    <script>
+      function example(event) {
+        event.preventDefault()
+        console.log(event)
+      }
+    </script>
+  </head>
+
+  <body>
+    <main id="app">
+      <form onsubmit="example()">
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="text" placeholder="example@gmail.com"/>
+        </div>
+        <br />
+        <div>
+          <label for="number">Phone Number</label>
+          <input id="number" type="number" />
+        </div>
+        <br />
+        <div>
+          <label for="feedback">Tell us how we did</label>
+          <textarea id="feedback">
+          </textarea>
+        </div>
+        <br />
+        <div>
+          <label for="color">Choose your favorite color</label>
+          <select>
+            <option value="0">--Choose a color--</option>
+            <option value="1">Red</option>
+            <option value="2">Blue</option>
+            <option value="3">Green</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <input type="submit" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
