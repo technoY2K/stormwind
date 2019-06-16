@@ -1,0 +1,14 @@
+Bacon Ipsum
+https://baconipsum.com/
+
+Free Icons
+https://www.flaticon.com/
+
+HTML Entities
+https://www.whatsmyip.org/html-characters/
+
+Atom Emmet package
+https://atom.io/packages/emmet
+
+Emmet cheatsheet
+https://docs.emmet.io/cheat-sheet/
