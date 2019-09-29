@@ -1,0 +1,31 @@
+
+* {
+  margin-bottom: 50px;
+}
+
+.picard {
+  display: inline;
+  width: 25%;
+}
+
+.laforge {
+  display: inline-block;
+  width: 75%;
+  margin-left: 200px;
+}
+
+header {
+  background-color: blue;
+}
+
+nav {
+  background: yellow;
+}
+
+section {
+  background-color: pink;
+}
+
+footer {
+  background-color: blue;
+}
