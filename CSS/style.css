@@ -1,31 +1,13 @@
-
-* {
-  margin-bottom: 50px;
-}
-
-.picard {
-  display: inline;
-  width: 25%;
-}
-
-.laforge {
-  display: inline-block;
-  width: 75%;
-  margin-left: 200px;
-}
-
-header {
+#box-container {
   background-color: blue;
 }
 
-nav {
-  background: yellow;
+#box-container p {
+  color: yellow;
+  font-size: 55px;
 }
 
-section {
-  background-color: pink;
-}
-
-footer {
-  background-color: blue;
+div p {
+  color: red;
+  font-size: 55px;
 }
