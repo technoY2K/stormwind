@@ -1,1 +1,17 @@
+* {
+    box-sizing: content-box;
+}
 
+.ipsum-box {
+    height: 500px;
+    width: 500px;
+    background: blue;
+}
+
+.ipsum-box p {
+    color: white;
+    font-size: 45px;
+    font-family: 'Monoton', cursive;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
